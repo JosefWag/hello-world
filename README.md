@@ -1,2 +1,9 @@
 # hello-world
-Público 
+Um projeto web simples para nos ajudar a entender:
+- GitHub
+- GitHub Desktop
+- VS Code
+- HTML
+- CSS
+- JS
+- Netlify
