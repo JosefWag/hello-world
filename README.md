@@ -7,4 +7,4 @@ Um projeto web simples para nos ajudar a entender:
 - CSS
 - JS
 - Netlify
-- Markdown
+- Markdown :+1:
