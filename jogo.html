@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game</title>
+  <style>
+    body {
+      background: #333;
+      color: white;
+      font-family: arial;
+      text-align: center;
+    }
+
+    table {
+      margin: 0 auto;
+    }
+
+    td {
+      font-size: 80px;
+      background: #000;
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+    }
+
+    td:hover {
+      background: #222;
+    }
+  </style>
+</head>
+<body>
+  <h1>Jogo da Velha</h1>
+  <table>
+    <tr>
+      <td onclick="marcar(this)"></td>
+      <td onclick="marcar(this)"></td>
+      <td onclick="marcar(this)"></td>
+    </tr>
+    <tr>
+      <td onclick="marcar(this)"></td>
+      <td onclick="marcar(this)"></td>
+      <td onclick="marcar(this)"></td>
+    </tr>
+    <tr>
+      <td onclick="marcar(this)"></td>
+      <td onclick="marcar(this)"></td>
+      <td onclick="marcar(this)"></td>
+    </tr>
+  </table>
+  <script>
+
+    var player = 1
+
+    function marcar(td) {
+      if (player == 1) {
+        td.innerText = "O"
+        player = 2
+      } else {
+        td.innerText = "X"
+        player = 1
+      }
+    }
+  </script>
+</body>
+</html>
