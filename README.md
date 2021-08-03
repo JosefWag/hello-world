@@ -6,5 +6,5 @@ Um projeto web simples para nos ajudar a entender:
 - HTML 👍
 - CSS 👍
 - JS 👍
-- Netlify 
+- Netlify 👍
 - Markdown 👍
